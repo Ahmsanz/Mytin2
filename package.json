@@ -8,7 +8,7 @@
     "server": "nodemon server.js",
     "local": "nodemon -r dotenv/config server.js",
     "start": "node server.js",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build"
   },
   "engines": {
     "node": "14.2.x",
