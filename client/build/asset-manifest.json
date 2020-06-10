@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.acab0586.chunk.css",
+    "main.js": "/static/js/main.f62fa704.chunk.js",
+    "main.js.map": "/static/js/main.f62fa704.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.adb1e08b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.adb1e08b.js.map",
+    "static/js/2.84fe27ef.chunk.js": "/static/js/2.84fe27ef.chunk.js",
+    "static/js/2.84fe27ef.chunk.js.map": "/static/js/2.84fe27ef.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.facb0d42f6b3f575ab29103616f43f93.js": "/precache-manifest.facb0d42f6b3f575ab29103616f43f93.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.acab0586.chunk.css.map": "/static/css/main.acab0586.chunk.css.map",
+    "static/js/2.84fe27ef.chunk.js.LICENSE.txt": "/static/js/2.84fe27ef.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/DMMono-Regular.f0d6313e.ttf",
+    "static/media/MYtineraryLogo.png": "/static/media/MYtineraryLogo.a227b9b3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.adb1e08b.js",
+    "static/js/2.84fe27ef.chunk.js",
+    "static/css/main.acab0586.chunk.css",
+    "static/js/main.f62fa704.chunk.js"
+  ]
+}
