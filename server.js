@@ -10,6 +10,8 @@ const cors = require('cors');
 
 const db = mongoURI;
 
+const path = require('path');
+
 const mongoose = require('mongoose');
 
 const helmet = require('helmet');
@@ -36,7 +38,7 @@ app.use(passport.initialize())
 app.use(passport.session())
 require('./strategies/google')
 
-app.use('/api/cities', require('./routes/cities'));
+app.use('/cities', require('./routes/cities'));
 app.use('/users', require('./routes/users'));
 app.use('/auth', require('./routes/auth'));
 app.use('/itineraries', require('./routes/itineraries'))
