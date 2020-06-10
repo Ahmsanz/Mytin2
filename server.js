@@ -39,7 +39,7 @@ app.use(passport.session())
 require('./strategies/google')
 
 app.use('/cities', require('./routes/cities'));
-app.use('/users', require('./routes/users'));
+app.use('/api/users', require('./routes/users'));
 app.use('/auth', require('./routes/auth'));
 app.use('/itineraries', require('./routes/itineraries'))
 app.use('/plans', require('./routes/plans'));
@@ -54,6 +54,6 @@ if (process.env.NODE_ENV === "production") {
 
 app.listen(port, () => console.log('listening to ' + port));
 
-app.get('/api', (req, res) => {
+app.get('/', (req, res) => {
   res.send('Accessing the API')
 });
